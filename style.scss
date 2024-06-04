@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+ }
+ 
+ #text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ 
+ .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: 5px solid #000;
+    border-radius: 30px;
+    margin: 50px;
+ }
+ 
+ .container::before {
+    content: "portfolio";
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 1.5em;
+    color: #a64b4b;
+ }
+ 
+ .nav {
+    width: 100%;
+    background-color: #ffffff;
+ }
+ 
+ .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .nav ul li {
+    margin: 0 20px;
+ }
+ 
+ .nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    display: block;
+ }
+ 
+ .nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+ }
+ 
+ .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+ }
+ 
+ .left-column, .right-column {
+    width: 45%;
+    padding: 50px;
+    color: #777;
+ }
+ 
+ .image-placeholder {
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+ }
+ 
+ #tcr {
+    width: 100%;
+    height: auto; 
+ }
+ 
+ .bord {
+    background-color: #a64b4b;
+    color: #fff;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+ }
+ 
+ h1 {
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    background: #fff;
+    padding: 0 10px;
+ }
+ 
+ .dive {
+    border: solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+ }
+ 
+ .text-box {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+ }
+ 
+ .text-box h2 {
+    margin-top: 0;
+ }
+ 
+ .contact-info {
+    background-color: #f9f9f9;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+ }
+ 
+ .contact-info h2 {
+    margin-top: 0;
+    color: #a64b4b;
+ }
+ 
+ .contact-info ul {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ .contact-info ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+ }
+ 
+ 
